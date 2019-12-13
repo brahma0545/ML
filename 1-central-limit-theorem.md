@@ -13,20 +13,20 @@ To explain the concepts of Central limit Theorem i am taking a dataset from <a h
 
 In this dataset we have 537577 data points, and below is the distribution plot of the prices of the iterms.
 
-<img src="https://i.imgur.com/vXSIeng.jpg" class="image_cent" />
+<img src="https://i.imgur.com/Nn2nxIJ.jpg" class="image_cent" />
 
 ## Getting samples
 
 To demonistrate the cetral limit Theorem, lets do a simple experiment by collecting few samples from the data and for each sample calculate its mean.
 
 the bellow image shows the distribution of the those means
-<img src="https://i.imgur.com/vXSIeng.jpg" class="image_cent" />
+<img src="https://i.imgur.com/7y9KHw7.png" class="image_cent" />
 
 if you have observed the above image, i have plotted 6 distributions, the left top is generated with 100 samples and each sample of size of 50, for each sample i have calculated mean and plotted a <a href='https://en.wikipedia.org/wiki/Kernel_density_estimation1'>kde plot</a>, the blue line shows the mean of sample means i.e `mean(100 sample means)` and the red line is drawn at the population mean. the remaining other plots were also generated in the similar fashion.
 
 > if we can observe the thrid row distribution plots, we can say that the larger the sample size, the more it looks like Gaussian
 
-<img src='https://i.imgur.com/six4R8v.png', width=400 class='image_ nice'>
+<img src="https://i.imgur.com/six4R8v.png", width=400 class="image_ nice">
 
 I have just tabulated all the values so that we can have a better look at the numbers and relate to our experiment. In the above table P_mean is Population mean, P_std is Population standard deviation, and <font color='red'>\(n\)</font> is the number of elements in each sample.
 
@@ -111,7 +111,7 @@ $${\displaystyle {\sigma }_{\bar {x}}\ \approx {\frac {s}{\sqrt {n}}}} $$
     <li>
         Suppose we have a standard normal distribution \(Z\). <br>Let \(z_\frac{\sigma}{2}\) denote a \(zScore\) with α/2 probability to its right. <br>Similarly let -\(z_\frac{\sigma}{2}\) denote a \(zScore\) with α/2 probability to its left.
     </li>
-    <li> Example: <img src='https://i.imgur.com/mntg6h2.png' width=700>
+    <li> Example: <img src="https://i.imgur.com/mntg6h2.png" width=700>
         The value \(z_{0.10}\) is the positive z-score that has α/2 = 0.1 probability to its right. The desired \(zScore\) is 1.282. <br>The value \(-z_{0.25}\) is the negative z-score that has α/2 = 0.25 probability to its left. The
 desired \(zScore\) is -0.6745.
     </li>
@@ -163,7 +163,7 @@ __Choose the best interpretation of a 95% confidence interval for the population
 
 <font size='3'>From the above equations Let us construct an intravel [<font color='red'>\(\overline{x}\)- 2*505.1, \(\overline{x}\)+2*505.1</font>] = [<font color='red'> \(\overline{x}\)- 2*\(\frac{\sigma}{\sqrt{n}}\), \(\overline{x}\)+2*\(\frac{\sigma}{\sqrt{n}}\)</font>]</font>
 
-<img src='../public/img/centeral_dist4.PNG' width=600 class='image_cent'>
+<img src="../public/img/centeral_dist4.PNG" width=600 class="image_cent">
 
 In the above figure, the red line show the sample mean <font color='red'>\(\overline{x}\)</font> and the two green lines shows [<font color='red'> \(\overline{x}\)- 2*\(\frac{\sigma}{\sqrt{n}}\), \(\overline{x}\)+2*\(\frac{\sigma}{\sqrt{n}}\)</font>]
 
@@ -200,7 +200,7 @@ As we know <br><br>
 
 <font >From the above equations we can construct an intravel  [<font color='red'> \(\overline{x}\)- 2*\(\frac{s}{\sqrt{n}}\), \(\overline{x}\)+2*\(\frac{s}{\sqrt{n}}\)</font>]</font>
 
-<img src='https://i.imgur.com/ORGg5BB.png' width=600 class='image_cent'>
+<img src="https://i.imgur.com/ORGg5BB.png" width=600 class="image_cent">
 
 __Conclusion: Finding Confidenace interval of population mean__
 <ul>
