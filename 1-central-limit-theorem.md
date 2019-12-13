@@ -13,7 +13,7 @@ To explain the concepts of Central limit Theorem i am taking a dataset from <a h
 
 In this dataset we have 537577 data points, and below is the distribution plot of the prices of the iterms.
 
-<img src="https://i.imgur.com/Nn2nxIJ.jpg", class="image_cent", width=400 />
+<img src="https://i.imgur.com/Nn2nxIJ.jpg" class="image_cent" width=400 />
 
 ## Getting samples
 
@@ -164,7 +164,7 @@ __Choose the best interpretation of a 95% confidence interval for the population
 
 <font size='3'>From the above equations Let us construct an intravel [<font color='red'>\(\overline{x}\)- 2*505.1, \(\overline{x}\)+2*505.1</font>] = [<font color='red'> \(\overline{x}\)- 2*\(\frac{\sigma}{\sqrt{n}}\), \(\overline{x}\)+2*\(\frac{\sigma}{\sqrt{n}}\)</font>]</font>
 
-<img src="https://i.imgur.com/NXPAxKK.png", class="image_cent", width=400 />
+<img src="https://i.imgur.com/NXPAxKK.png" class="image_cent" width=400 />
 
 In the above figure, the red line show the sample mean <font color='red'>\(\overline{x}\)</font> and the two green lines shows [<font color='red'> \(\overline{x}\)- 2*\(\frac{\sigma}{\sqrt{n}}\), \(\overline{x}\)+2*\(\frac{\sigma}{\sqrt{n}}\)</font>]
 
@@ -201,7 +201,7 @@ As we know <br><br>
 
 <font >From the above equations we can construct an intravel  [<font color='red'> \(\overline{x}\)- 2*\(\frac{s}{\sqrt{n}}\), \(\overline{x}\)+2*\(\frac{s}{\sqrt{n}}\)</font>]</font>
 
-<img src="https://i.imgur.com/ORGg5BB.png", class="image_cent", width=400 />
+<img src="https://i.imgur.com/ORGg5BB.png" class="image_cent" width=400 />
 
 __Conclusion: Finding Confidenace interval of population mean__
 <ul>
