@@ -13,7 +13,7 @@ To explain the concepts of Central limit Theorem i am taking a dataset from <a h
 
 In this dataset we have 537577 data points, and below is the distribution plot of the prices of the iterms.
 
-<img src="https://i.imgur.com/Nn2nxIJ.jpg" class="image_cent" width=400 />
+<p><img src="https://i.imgur.com/Nn2nxIJ.jpg" class="image_cent" width=400 /></p>
 
 ## Getting samples
 
