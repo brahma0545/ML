@@ -13,20 +13,20 @@ To explain the concepts of Central limit Theorem i am taking a dataset from <a h
 
 In this dataset we have 537577 data points, and below is the distribution plot of the prices of the iterms.
 
-<img alt="distribution of data" src="{{ site.url }}{{ site.baseurl }}/public/img/centeral_dist.JPG" width=400 class='image_cent'>
+<img src='https://i.imgur.com/Nn2nxIJ.jpg', width=400 class='image_cent'>
 
 ## Getting samples
 
 To demonistrate the cetral limit Theorem, lets do a simple experiment by collecting few samples from the data and for each sample calculate its mean.
 
 the bellow image shows the distribution of the those means
-<img alt="means of sample distribution" src="../public/img/centeral_dist2.PNG" width=400 class='image_cent'/>
+<img src='https://i.imgur.com/7y9KHw7.png', width=400 class='image_cent'>
 
 if you have observed the above image, i have plotted 6 distributions, the left top is generated with 100 samples and each sample of size of 50, for each sample i have calculated mean and plotted a <a href='https://en.wikipedia.org/wiki/Kernel_density_estimation1'>kde plot</a>, the blue line shows the mean of sample means i.e `mean(100 sample means)` and the red line is drawn at the population mean. the remaining other plots were also generated in the similar fashion.
 
 > if we can observe the thrid row distribution plots, we can say that the larger the sample size, the more it looks like Gaussian
 
-<img alt="means of sample distribution" src="../public/img/centeral_dist3.PNG" class='img-nice'/>
+<img src='https://i.imgur.com/six4R8v.png', width=400 class='image_ nice'>
 
 I have just tabulated all the values so that we can have a better look at the numbers and relate to our experiment. In the above table P_mean is Population mean, P_std is Population standard deviation, and <font color='red'>\(n\)</font> is the number of elements in each sample.
 
@@ -200,7 +200,7 @@ As we know <br><br>
 
 <font >From the above equations we can construct an intravel  [<font color='red'> \(\overline{x}\)- 2*\(\frac{s}{\sqrt{n}}\), \(\overline{x}\)+2*\(\frac{s}{\sqrt{n}}\)</font>]</font>
 
-<img src='../public/img/centeral_dist5.PNG' width=600 class='image_cent'>
+<img src='https://i.imgur.com/ORGg5BB.png' width=600 class='image_cent'>
 
 __Conclusion: Finding Confidenace interval of population mean__
 <ul>
