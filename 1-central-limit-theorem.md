@@ -223,5 +223,5 @@ __Conclusion: Finding Confidenace interval of population mean__
 
 <div class="pagination">
   <a class="pagination-item older" href="{{ site.baseurl }}">&laquo; Introduction</a>
-  <a class="pagination-item newer" href="{{ site.baseurl }}2-jekyll-gem">Install Jekyll Gem &raquo;</a>
+  <a class="pagination-item newer" href="{{ site.baseurl }}2-hypothesis-testing">2 hypothesis Testing &raquo;</a>
 </div>
