@@ -20,14 +20,13 @@ In this dataset we have 537577 data points, and below is the distribution plot o
 To demonistrate the cetral limit Theorem, lets do a simple experiment by collecting few samples from the data and for each sample calculate its mean.
 
 the bellow image shows the distribution of the those means
-
-<img alt="means of sample distribution" src="../public/img/centeral_dist2.PNG" width=400 class='image_cent'>
+<img alt="means of sample distribution" src="../public/img/centeral_dist2.PNG" width=400 class='image_cent'/>
 
 if you have observed the above image, i have plotted 6 distributions, the left top is generated with 100 samples and each sample of size of 50, for each sample i have calculated mean and plotted a <a href='https://en.wikipedia.org/wiki/Kernel_density_estimation1'>kde plot</a>, the blue line shows the mean of sample means i.e `mean(100 sample means)` and the red line is drawn at the population mean. the remaining other plots were also generated in the similar fashion.
 
 > if we can observe the thrid row distribution plots, we can say that the larger the sample size, the more it looks like Gaussian
 
-<img alt="means of sample distribution" src="../public/img/centeral_dist3.PNG" class='img-nice'>
+<img alt="means of sample distribution" src="../public/img/centeral_dist3.PNG" class='img-nice'/>
 
 I have just tabulated all the values so that we can have a better look at the numbers and relate to our experiment. In the above table P_mean is Population mean, P_std is Population standard deviation, and <font color='red'>\(n\)</font> is the number of elements in each sample.
 
