@@ -135,6 +135,7 @@ tbody tr:nth-child(odd) th {
 }
 .image_cent{
   margin: 0 0 0 100px;
+  width: 400;
 }
 .footer {
   margin-top: 5rem;
