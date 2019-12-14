@@ -31,7 +31,7 @@ if you have observed the above image, i have plotted 6 distributions, the left t
 
 > if we can observe the thrid row distribution plots, we can say that the larger the sample size, the more it looks like Gaussian
 
-<img src='https://i.imgur.com/six4R8v.png' class='image-nice'>
+<img src='https://i.imgur.com/six4R8v.png' class='image-nice' style="width:100%">
 
 <!-- <img src="https://i.imgur.com/six4R8v.png" class="image-nice" width=700> -->
 
