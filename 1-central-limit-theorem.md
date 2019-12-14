@@ -119,7 +119,7 @@ $${\displaystyle {\sigma }_{\bar {x}}\ \approx {\frac {s}{\sqrt {n}}}} $$
     <li>
         Suppose we have a standard normal distribution \(Z\). <br>Let \(z_\frac{\sigma}{2}\) denote a \(zScore\) with α/2 probability to its right. <br>Similarly let -\(z_\frac{\sigma}{2}\) denote a \(zScore\) with α/2 probability to its left.
     </li>
-    <li> Example: <img src='https://i.imgur.com/mntg6h2.png' width=700>
+    <li> Example: <img src='https://i.imgur.com/mntg6h2.png' style="width:700">
         The value \(z_{0.10}\) is the positive z-score that has α/2 = 0.1 probability to its right. The desired \(zScore\) is 1.282. <br>The value \(-z_{0.25}\) is the negative z-score that has α/2 = 0.25 probability to its left. The
 desired \(zScore\) is -0.6745.
     </li>
