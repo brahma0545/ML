@@ -13,7 +13,6 @@ To explain the concepts of Central limit Theorem i am taking a dataset from <a h
 
 In this dataset we have 537577 data points, and below is the distribution plot of the prices of the iterms.
 
-<!-- <img src="" class="image_cent" width=400 /> -->
 ![alt text](https://i.imgur.com/Nn2nxIJ.jpg)
 
 ## Getting samples
@@ -22,8 +21,8 @@ To demonistrate the cetral limit Theorem, lets do a simple experiment by collect
 
 the bellow image shows the distribution of the those means
 
-<img src="https://i.imgur.com/7y9KHw7.png" class="image_cent" width=400/>
-<!-- ![alt text](https://i.imgur.com/Nn2nxIJ.jpg) -->
+![alt text](https://i.imgur.com/7y9KHw7.png)
+
 if you have observed the above image, i have plotted 6 distributions, the left top is generated with 100 samples and each sample of size of 50, for each sample i have calculated mean and plotted a <a href='https://en.wikipedia.org/wiki/Kernel_density_estimation1'>kde plot</a>, the blue line shows the mean of sample means i.e `mean(100 sample means)` and the red line is drawn at the population mean. the remaining other plots were also generated in the similar fashion.
 
 > if we can observe the thrid row distribution plots, we can say that the larger the sample size, the more it looks like Gaussian
