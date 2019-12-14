@@ -13,20 +13,22 @@ To explain the concepts of Central limit Theorem i am taking a dataset from <a h
 
 In this dataset we have 537577 data points, and below is the distribution plot of the prices of the iterms.
 
-<img src="https://i.imgur.com/Nn2nxIJ.jpg", class="image_cent", width=400 />
+<!-- <img src="" class="image_cent" width=400 /> -->
+![alt text](https://i.imgur.com/Nn2nxIJ.jpg)
 
 ## Getting samples
 
 To demonistrate the cetral limit Theorem, lets do a simple experiment by collecting few samples from the data and for each sample calculate its mean.
 
 the bellow image shows the distribution of the those means
-<img src="https://i.imgur.com/7y9KHw7.png" class="image_cent" width=400/>
 
+<img src="https://i.imgur.com/7y9KHw7.png" class="image_cent" width=400/>
+<!-- ![alt text](https://i.imgur.com/Nn2nxIJ.jpg) -->
 if you have observed the above image, i have plotted 6 distributions, the left top is generated with 100 samples and each sample of size of 50, for each sample i have calculated mean and plotted a <a href='https://en.wikipedia.org/wiki/Kernel_density_estimation1'>kde plot</a>, the blue line shows the mean of sample means i.e `mean(100 sample means)` and the red line is drawn at the population mean. the remaining other plots were also generated in the similar fashion.
 
 > if we can observe the thrid row distribution plots, we can say that the larger the sample size, the more it looks like Gaussian
 
-<img src="https://i.imgur.com/six4R8v.png" class="image-nice"/>
+<img src="https://i.imgur.com/six4R8v.png" class="image-nice" width=700/>
 
 
 I have just tabulated all the values so that we can have a better look at the numbers and relate to our experiment. In the above table P_mean is Population mean, P_std is Population standard deviation, and <font color='red'>\(n\)</font> is the number of elements in each sample.
@@ -164,7 +166,7 @@ __Choose the best interpretation of a 95% confidence interval for the population
 
 <font size='3'>From the above equations Let us construct an intravel [<font color='red'>\(\overline{x}\)- 2*505.1, \(\overline{x}\)+2*505.1</font>] = [<font color='red'> \(\overline{x}\)- 2*\(\frac{\sigma}{\sqrt{n}}\), \(\overline{x}\)+2*\(\frac{\sigma}{\sqrt{n}}\)</font>]</font>
 
-<img src="https://i.imgur.com/NXPAxKK.png", class="image_cent", width=400 />
+<img src="https://i.imgur.com/NXPAxKK.png" class="image_cent" width=400 />
 
 In the above figure, the red line show the sample mean <font color='red'>\(\overline{x}\)</font> and the two green lines shows [<font color='red'> \(\overline{x}\)- 2*\(\frac{\sigma}{\sqrt{n}}\), \(\overline{x}\)+2*\(\frac{\sigma}{\sqrt{n}}\)</font>]
 
@@ -201,7 +203,7 @@ As we know <br><br>
 
 <font >From the above equations we can construct an intravel  [<font color='red'> \(\overline{x}\)- 2*\(\frac{s}{\sqrt{n}}\), \(\overline{x}\)+2*\(\frac{s}{\sqrt{n}}\)</font>]</font>
 
-<img src="https://i.imgur.com/ORGg5BB.png", class="image_cent", width=400 />
+<img src="https://i.imgur.com/ORGg5BB.png" class="image_cent" width=400 />
 
 __Conclusion: Finding Confidenace interval of population mean__
 <ul>
