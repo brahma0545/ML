@@ -13,7 +13,7 @@ To explain the concepts of Central limit Theorem i am taking a dataset from <a h
 
 In this dataset we have 537577 data points, and below is the distribution plot of the prices of the iterms.
 
-<img src='https://i.imgur.com/vXSIeng.jpg' class='image_cent'>
+<img src='https://i.imgur.com/Nn2nxIJ.jpg' class='image_cent'>
 
 <!-- <img src="https://i.imgur.com/Nn2nxIJ.jpg" width=400 class="image_cent" alt="alt text"> -->
 
@@ -23,7 +23,7 @@ To demonistrate the cetral limit Theorem, lets do a simple experiment by collect
 
 the bellow image shows the distribution of the those means
 
-<img src='https://i.imgur.com/vXSIeng.jpg' class='image_cent'>
+<img src='https://i.imgur.com/7y9KHw7.png' class='image_cent'>
 
 <!-- <img src="https://i.imgur.com/7y9KHw7.png" width=400 class="image_cent" alt="alt text"> -->
 
@@ -31,7 +31,9 @@ if you have observed the above image, i have plotted 6 distributions, the left t
 
 > if we can observe the thrid row distribution plots, we can say that the larger the sample size, the more it looks like Gaussian
 
-<img src="https://i.imgur.com/six4R8v.png" class="image-nice" width=700/>
+<img src='https://i.imgur.com/six4R8v.png' class='image_cent' width=700>
+
+<!-- <img src="https://i.imgur.com/six4R8v.png" class="image-nice" width=700> -->
 
 
 I have just tabulated all the values so that we can have a better look at the numbers and relate to our experiment. In the above table P_mean is Population mean, P_std is Population standard deviation, and <font color='red'>\(n\)</font> is the number of elements in each sample.
@@ -117,7 +119,7 @@ $${\displaystyle {\sigma }_{\bar {x}}\ \approx {\frac {s}{\sqrt {n}}}} $$
     <li>
         Suppose we have a standard normal distribution \(Z\). <br>Let \(z_\frac{\sigma}{2}\) denote a \(zScore\) with α/2 probability to its right. <br>Similarly let -\(z_\frac{\sigma}{2}\) denote a \(zScore\) with α/2 probability to its left.
     </li>
-    <li> Example: <img src="https://i.imgur.com/mntg6h2.png" width=700>
+    <li> Example: <img src='https://i.imgur.com/mntg6h2.png' width=700>
         The value \(z_{0.10}\) is the positive z-score that has α/2 = 0.1 probability to its right. The desired \(zScore\) is 1.282. <br>The value \(-z_{0.25}\) is the negative z-score that has α/2 = 0.25 probability to its left. The
 desired \(zScore\) is -0.6745.
     </li>
@@ -169,7 +171,7 @@ __Choose the best interpretation of a 95% confidence interval for the population
 
 <font size='3'>From the above equations Let us construct an intravel [<font color='red'>\(\overline{x}\)- 2*505.1, \(\overline{x}\)+2*505.1</font>] = [<font color='red'> \(\overline{x}\)- 2*\(\frac{\sigma}{\sqrt{n}}\), \(\overline{x}\)+2*\(\frac{\sigma}{\sqrt{n}}\)</font>]</font>
 
-<img src='https://i.imgur.com/vXSIeng.jpg' class='image_cent'>
+<img src='https://i.imgur.com/NXPAxKK.png' class='image_cent'>
 
 <!-- <img src="https://i.imgur.com/NXPAxKK.png" class="image_cent" width=400 /> -->
 
@@ -208,7 +210,7 @@ As we know <br><br>
 
 <font >From the above equations we can construct an intravel  [<font color='red'> \(\overline{x}\)- 2*\(\frac{s}{\sqrt{n}}\), \(\overline{x}\)+2*\(\frac{s}{\sqrt{n}}\)</font>]</font>
 
-<img src='https://i.imgur.com/vXSIeng.jpg' class='image_cent'>
+<img src='https://i.imgur.com/ORGg5BB.png' class='image_cent'>
 
 <!-- <img src="https://i.imgur.com/ORGg5BB.png" class="image_cent" width=400 > -->
 
