@@ -209,3 +209,9 @@ in the above plot, when we take the sample size 100 we are getting `pValue =  0.
 If we reject the null hypothesis, we do not prove the alternative hypothesis is true. We merely state there is sufficient evidence to reject the null hypothesis.
 If we fail to reject the null hypothesis, we do not prove the null hypothesis is true. We merely state there is not sufficient evidence to reject the null hypothesis.
 Unfortunately, whatever the decision, there is always a chance we made an error!
+
+
+<div class="pagination">
+  <a class="pagination-item older" href="{{ site.url }}{{ site.baseurl }}/1-central-limit-theorem">&laquo; 1 Central Limit Theorem</a>
+  <a class="pagination-item newer" href="{{ site.url }}{{ site.baseurl }}/3-back-propagation">3 Backpropagation &raquo;</a>
+</div>
