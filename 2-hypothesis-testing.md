@@ -202,7 +202,7 @@ def calculate_p_value(sample1, sample2, alpha):
   We can reject the null hypothesis
 ~~~
 
-<img src='https://i.imgur.com/lZx4Jt2.png' class='image_cent' style="width:650px">
+<img src='https://i.imgur.com/lZx4Jt2.png' class='image-decent' style="width:100%">
 
 in the above plot, when we take the sample size 100 we are getting `pValue =  0.008`, for sample size 500 we are getting `pValue = 0.161` and for the sample size 1000 we are having  `pValue = 0.289`
 
