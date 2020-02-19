@@ -95,9 +95,11 @@ read mode about `super` function <a href='https://stackoverflow.com/a/27134600/4
 Do read <a href='https://www.tensorflow.org/guide/keras/custom_layers_and_models'>this blog</a> for more information:
 few screenshots from the above blog
 
-1. <img src='https://i.imgur.com/SDNQgos.png' width=600>
-2. <img src='https://i.imgur.com/syqjpux.png' width=600>
-3. <img src='https://i.imgur.com/PfmYWno.png' width=600>
+<ol>
+<li><img src='https://i.imgur.com/SDNQgos.png' width="100%"></li>
+<li><img src='https://i.imgur.com/syqjpux.png' width="100%"></li>
+<li><img src='https://i.imgur.com/PfmYWno.png' width="100%"></li>
+</ol>
 
 
 # 2. Writing a custom Model

@@ -7,9 +7,15 @@ step: 7
 
 We have seen the Encoder Decoder architecture in the previous blog, now lest check if we can do any better than passing last layer timestep outputs to first timestep of decoder.
 
-Most of this blog will be based on this paper. its not mandotory to go through this paper, i will try to simplify things. But It will be very nice if you can spend some time to go through it.
+Most of this blog will be based on <a href='https://arxiv.org/pdf/1508.04025.pdf'>this paper.
 
 <!-- <iframe src="https://arxiv.org/pdf/1508.04025.pdf" width="100%" height="500px"> -->
+<object width="100%" height="500" type="application/pdf" data="https://arxiv.org/pdf/1508.04025.pdf?#zoom=85&scrollbar=0&toolbar=0&navpanes=0">
+    <p>Insert your error message here, if the PDF cannot be displayed.</p>
+</object>
+ its not mandotory to go through this paper, i will try to simplify things. But It will be very nice if you can spend some time to go through it.
+
+ Most of this blog will be based on the images that i have created in using powerpoint.
 
 <img src='https://i.imgur.com/OgxuAaM.jpg' width="100%">
 
@@ -58,7 +64,7 @@ credit: <a href ='https://guillaumegenthial.github.io/assets/img2latex/seq2seq_a
 
 </ol>
 <img src='https://i.imgur.com/WyKmkOF.jpg' width="100%" >
-Note: I am not including the full code here, as this is the part of the assignments of <a href='https://classroom.appliedcourse.com/'>appliedaicourse</a> 
+Note: I am not including the full code here, as this is the part of the assignments of <a href='https://classroom.appliedcourse.com/'>appliedaicourse</a>
 
 <div class="pagination">
 
