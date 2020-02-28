@@ -44,6 +44,7 @@ before we write custom layers in tensorflow lets see the definition of <b>Layers
 |    input_shape:                                                                                                   |
 |    Instance of `TensorShape`, or list of instances of `TensorShape` if the layer expects a list of inputs         |
 +--------------------------------------------------------------------+
+
 </pre>
 
 <pre>
@@ -89,7 +90,8 @@ there are other functions also availabel, please check this link for better unde
 
 ## 1.1 Example
 read mode about `super` function <a href='https://stackoverflow.com/a/27134600/4084039 '>here</a>:
-<img src='https://i.imgur.com/1a8N7gH.png' width=600 class='image_cent'>
+
+<img src='https://i.imgur.com/1a8N7gH.png' class='image_cent'>
 
 ## 1.2 Resources
 Do read <a href='https://www.tensorflow.org/guide/keras/custom_layers_and_models'>this blog</a> for more information:
@@ -288,6 +290,7 @@ i_1 &= \operatorname{argmax}(p_1)
 <p>by writing</p>
 
 <script type="math/tex; mode=display">\mathbb{P}\left[ y_{t+1} | y_t, h_{t}, e \right]</script>
+> Note: in the simple venila seq-seq models, we will pass the last time step hidden and cell states to the decoder, instead of that, we can do avg-pooling or max-pooling of all the hidden states of encoder and then pass the results as the inputs to the decoder.
 
 the code in the <a href="#encoder-decoder">section 3</a> will in an implementation of the above concept.
 
