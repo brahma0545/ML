@@ -9,23 +9,84 @@ before we write custom layers in tensorflow lets see the definition of <b>Layers
 
 
 >From the <a href='https://www.tensorflow.org/api_docs/python/tf/keras/layers/Layer'> tf.keras.layers.Layers</a> documentation:
-
 <ul>
 <li>this is the class from which all layers inherit.</li>
 <li>A layer is a class implementing common neural networks operations, such as convolution, batch norm, etc. These operations require managing weights, losses, updates, and inter-layer connectivity.</li>
 <li>Users will just instantiate a layer and then treat it as a callable.</li>
 <li>We recommend that descendants of Layer implement the following methods:</li>
+<pre>
++--------------------------------------------------------------------+
+|<strong> def __init__(self, trainable=True, name=None, dtype=None,</strong>          |
+|<strong> dynamic=False, **kwargs):</strong>                                          |
++--------------------------------------------------------------------+
+|                                                                    |
+|* the properties should be set by the user via keyword arguments.   |
+|                                                                    |
+|* note that 'dtype', 'input_shape' and 'batch_input_shape' are only |
+|applicable to input layers, do not pass these keywords to non-input |
+|layers.                                                             |
++--------------------------------------------------------------------+
+|* allowed_kwargs = {'input_shape', 'batch_input_shape', 'batch_size'|
+|  'weights', 'activity_regularizer','autocast'}                     |
++--------------------------------------------------------------------+
+</pre>
+<pre>
++--------------------------------------------------------------------+
+|<strong> def build(self, input_shape)</strong>:                                      |
++--------------------------------------------------------------------+
+|                                                                    |
+| * Creates the variables of the layer (optional, for subclass       |
+|   implementers). This is a method that implementers of             |
+|   subclasses of `Layer` or `Model`                                 |
+|                                                                    |
+| * You can override if you need a state-creation step in-between    |
+|   <em><font color='yellow'>layer instantiation</font></em> and <em><font color='yellow'>layer call</font></em>.                              |
+| * This is typically used to create weights of `Layer` subclasses.  |
++--------------------------------------------------------------------+
+| Arguments:                                                         |
+|    input_shape:                                                    |
+|    Instance of `TensorShape`, or list of instances of `TensorShape`|
+|    if the layer expects a list of inputs                           |
++--------------------------------------------------------------------+
 
-<ul>
-<li><img src='https://i.imgur.com/RLrj20C.png' width="100%"></li>
-<li><img src='https://i.imgur.com/ZltvRc0.png' width="100%"></li>
-<li><img src='https://i.imgur.com/54jxmYC.png' width="100%"></li>
+</pre>
+
+<pre>
++--------------------------------------------------------------------+
+| <strong> def call(self, inputs, **kwargs)</strong>:                                 |
++--------------------------------------------------------------------+
+| * This is where the layer's logic lives.                           |
++--------------------------------------------------------------------+
+|* Arguments:                                                        |
+|        inputs: Input tensor, or list/tuple of input tensors.       |
+|        **kwargs: Additional keyword arguments.                     |
++--------------------------------------------------------------------+
+|* Returns:                                                          |
+|        A tensor or list/tuple of tensors.                          |
++--------------------------------------------------------------------+
+</pre>
 <pre>
 <a href='https://github.com/tensorflow/tensorflow/blob/r2.1/tensorflow/python/keras/engine/base_layer.py#L310'>check this link for more arguments</a>
 </pre>
-<li><img src='https://i.imgur.com/RYXnvea.png' width="100%"></li>
-</ul>
 
+
+<pre>
++--------------------------------------------------------------------+
+|<strong> def add_weight(self,name=None, shape=None, ..., **kwargs)</strong>:         |
++--------------------------------------------------------------------+
+|* Adds a new variable to the layer.                                 |
++--------------------------------------------------------------------+
+|* Arguments:                                                        |
+|        name : Variable name.                                       |
+|        shape: Variable shape. Defaults to scalar if unspecified.   |
+|        dtype: The type of the variable. Defaults to `self.dtype` or|
+|               float32.                                             |
++--------------------------------------------------------------------+
+|* Returns:                                                          |
+|        The created variable. Usually either a `Variable` or        |
+|        `ResourceVariable` instance.                                |
++--------------------------------------------------------------------+
+</pre>
 ...
 there are other functions also availabel, please check this link for better understanding of it
 <a href='https://github.com/tensorflow/tensorflow/blob/r2.1/tensorflow/python/keras/engine/base_layer.py'>base_layer.py</a>
