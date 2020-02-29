@@ -236,7 +236,7 @@ i_1 &= \operatorname{argmax}(p_1)
 <p>by writing</p>
 
 <script type="math/tex; mode=display">\mathbb{P}\left[ y_{t+1} | y_t, h_{t}, e \right]</script>
-> Note: in the simple venila seq-seq models, we will pass the last time step hidden and cell states to the decoder, instead of that, we can do avg-pooling or max-pooling of all the hidden states of encoder and then pass the results as the inputs to the decoder.
+> Note: in the simple venilla seq-seq models, we will pass the last time step hidden and cell states to the decoder, instead of that, we can do avg-pooling or max-pooling of all the hidden states of encoder and then pass the results as the inputs to the decoder.
 
 the code in the <a href="#encoder-decoder">section 3</a> will in an implementation of the above concept.
 
