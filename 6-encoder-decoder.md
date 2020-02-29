@@ -37,7 +37,7 @@ there are other functions also availabel, please check this link for better unde
 ## 1.1 Example
 read mode about `super` function <a href='https://stackoverflow.com/a/27134600/4084039 '>here</a>:
 
-<img src='https://i.imgur.com/1a8N7gH.png' class='image_cent'>
+<img src='https://i.imgur.com/1a8N7gH.png' height="400px" class='image_cent' width="100%">
 
 ## 1.2 Resources
 Do read <a href='https://www.tensorflow.org/guide/keras/custom_layers_and_models'>this blog</a> for more information:
@@ -52,7 +52,7 @@ few screenshots from the above blog
 
 # 2. Writing a custom Model
 There are three ways to implement a model architecture in TF
-  <img src='https://i.imgur.com/n7DBcoo.png' width=400 class='image_cent'>
+  <img src='https://i.imgur.com/n7DBcoo.png' width="400" class='image_cent'>
 The third and final method to implement a model architecture using Keras and TensorFlow 2.0 is called model subclassing.
 
 Inside of tf.keras the `Model` class is the root class used to define a model architecture. Since tf.keras utilizes object-oriented programming, we can actually `subclass` the Model class and then insert our architecture definition.
